@@ -2,22 +2,42 @@
 <html>
 <head>
     <title></title>
-	<meta charset="utf-8" />
+    <meta charset="utf-8" />
+    <link href='https://fonts.googleapis.com/css?family=Oxygen:300' rel='stylesheet' type='text/css'>
     <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/Style.css" rel="stylesheet" />
 </head>
 <body>
-    <div class="container">
+    <div id="pplTemplate" class="container">
+
         <div class="row">
-            <div class="col-md-6">
-                <h2>Column 1</h2>
-                <div></div>
+            <div class="hdr">
+                <h1>Modular JS: malo kao OOP mose</h1>
+                <a href="https://www.youtube.com/watch?v=m-NYyst_tiY" target="_blank">Bazirano na <u>ovom</u> tutorialu</a>
             </div>
             <div class="col-md-6">
-                <h2>Column 2</h2>
-                <div></div>
+                <h2>Insert</h2>
+                <div>
+
+                    <input type="text" value="" class="form-control" />
+                    <br />
+                    <button type="button" class="btn btn-success">Add person</button>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <h2>People</h2>
+                <ul></ul>
+            </div>
+            
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <p><b>Ovo nije losa fora, kod je organiziraniji i onda ima kao vise prednosti za odrzavanje i sve drugo. Baci oko na tutorial.</b></p>
+                
             </div>
         </div>
     </div>
-
+    <script src="js/jquery-1.10.2.min.js"></script>
+    <script src="js/Modular.js"></script>
 </body>
 </html>
